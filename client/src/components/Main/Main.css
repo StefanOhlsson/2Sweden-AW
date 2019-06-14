@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.search-button {
+  width: 100%;
+  margin: 5px;
+}
+
+.content {
+  grid-area: content;
+}
+
+.searchBox {
+  width: 100%;
+  color: black;
+  margin: 5px;
+}
+
+.currencyBox {
+  width: 100%;
+  color: black;
+  margin: 5px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+  padding: 5px;
+}
+
+.searchHeader {
+  font-family: Raleway;
+  text-align: center;
+  font-weight: bold;
+}
+
+.resultTable {
+  width: 50%;
+}
+
+.tableHead {
+  color: black;
+  background-color: white;
+}
+
+.tableBlue {
+  background-image: linear-gradient(to right top, #315a9d, #295294, #204a8b, #174382, #0b3b79);
+  color: black;
+}
+
+.textCenter {
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 399px) {
+  .search-button {
+    width: 100%;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchHeader {
+    font-size: 20px
+  }
+  .searchBox {
+    width: 100%;
+  }
+  .currencyBox {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 1199px) {
+  .search-button {
+    width: 100%;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchHeader {
+    font-size: 20px
+  }
+  .searchBox {
+    width: 100%;
+  }
+  .currencyBox {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1599px) {
+  .search-button {
+    width: 10%;
+  }
+  .searchHeader {
+    font-size: 30px;
+  }
+  .searchBox {
+    width: 15%;   
+  }
+  .currencyBox {
+    width: 9%;
+    margin: 5px;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .searchHeader {
+    font-size: 30px
+  }
+  .searchBox {
+    width: 15%;   
+  }
+  .currencyBox {
+    width: 8%;   
+  }
+  .search-button {
+    width: 10%;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

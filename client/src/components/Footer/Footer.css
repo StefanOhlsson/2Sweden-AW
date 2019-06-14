@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.main-footer {
+    grid-area: footer;
+    background: #006699;
+    left: 0;
+    bottom: 0px;
+    margin: 0;
+    width: 100%;
+    border-top: 5px solid #ffcc00;
+    height: 100px;
+    margin-bottom: 0px;
+  }
+
+.logo2 {
+    width: 4.5%;
+    float: right;
+  }
+
+  .twitter {
+    width: 4.5%;
+    float: left;
+  }
+
+.footerText {
+  color: #ffcc00;
+  position: relative;
+  text-align: center;
+  font-family: Lato;
+  font-variant: small-caps;
+  letter-spacing: 1.5px;
+  font-size: 5px;
+  margin-top: 40px;
+
+ 
+}
+
+@media (min-width: 500px) {
+  .footerText {
+    font-size: 10px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  .footerText {
+    font-size: 13px;
+  }
+
+}
+
+@media (min-width: 1600px) {
+  .footerText {
+    letter-spacing: 3px;
+  }
+
+  .logo2 {
+    width: 4.5%;
+  }
+  
+  .twitter {
+    width: 4.5%;
+  }
+
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.place-ul {
+  list-style-type: none;
+}
+
+.pl-clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+}
+
+.pl-clear {
+  display: block;
+  clear: both;
+}
+
+.pl-main-font {
+  font-size: 14px;
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div .wrapper {
+  /* Note that div.wrapper will extend the wrapper class in styleSheet.css */
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.row1, .row1 a {
+  color: #ffcc00;
+  background-color: #006699;
+}
+
+.row2 {
+  color: gray;
+  background-color: #FFFFFF;
+}
+
+.row2 a {
+  color: #ffcc00;
+  font-weight: bold;
+  background-color: #FFFFFF;
+}
+
+.row3 {
+  color: #ffcc00;
+  background-color: #006699;
+}
+
+.row3 a {
+  color: #ffcc00;
+  font-weight: bold;
+  background-color: #006699;
+}
+
+.row4, .row4 a {
+  color: #ffcc00;
+  background-color: #006699;
+}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+.pl-container, .pl-footer {
+  display: block;
+  width: 970px;
+  margin: 0 auto;
+}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter {
+  display: block;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.one_quarter {
+  width: 225px;
+}
+
+.two_quarter {
+  width: 470px;
+}
+
+.three_quarter {
+  width: 715px;
+}
+
+.four_quarter {
+  width: 960px;
+  float: none;
+  margin-right: 0;
+  clear: both;
+}
+
+.one_third, .two_third, .three_third {
+  display: block;
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.one_third {
+  width: 300px;
+}
+
+.two_third {
+  width: 630px;
+}
+
+.three_third {
+  width: 960px;
+  float: none;
+  margin-right: 0;
+  clear: both;
+}
+
+.lastbox {
+  margin-right: 0;
+}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+.pl-header-text {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Raleway;
+}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+.pl-container {
+  padding: 30px 0;
+}
+
+.pl-container section {
+  display: block;
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.pl-container .last {
+  margin: 0;
+}
+
+.pl-container .more {
+  text-align: right;
+}
+
+.pl-homepage {
+  display: block;
+  width: 100%;
+  line-height: 1.8em;
+}
+
+.pl-services figure img {
+  margin: 0 0 15px 0;
+  padding: 4px;
+  border: 1px solid #D6D6D6;
+}
+
+.pl-services figure h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pl-intro figure img {
+  float: right;
+  margin: 0 0 10px 0;
+  padding: 4px;
+  border: 1px solid #D6D6D6;
+}
+
+.pl-intro figure figcaption {
+  float: left;
+  width: 460px;
+}
+
+.pl-container section a:hover {
+  text-decoration: none;
+}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+.pl-footer {
+  padding: 30px 0;
+  font-size: 12px;
+  line-height: 1.4em;
+}
+
+.pl-footer .pl-title {
+  margin: 10px 0 25px 0;
+  color: #ffcc00;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pl-footer nav li {
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #006699;
+}
+
+.pl-footer nav li.last {
+  margin: 0;
+}
+
+.pl-footer nav a:hover {
+  text-decoration: none;
+  color: azure;
+}
